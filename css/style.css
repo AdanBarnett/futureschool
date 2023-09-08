@@ -1,12 +1,8 @@
 .bg{
     background-image: url("../image/FutureSchool_bg.jpg");
-    position:absolute;
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    background-size:cover; 
+    background-size:100% 100%;
     overflow: hidden;
     margin-left: 0px;
     margin-top: 0px;
@@ -21,10 +17,10 @@
     height: 100%;
     width: 100%;
 }
-
+/* 
 .color-opacity{
     background-color: rgba(60, 60, 60, 0.7); 
-}
+} */
 
 .image-container {
     display: flex;
@@ -78,7 +74,7 @@
     .bg{
         background-image: url("../image/FutureSchool_bg.jpg");
         position:absolute;
-        background-size: cover; 
+        background-size:100% 100%; 
         overflow: scroll;
         margin-left: 0px;
         margin-top: 0px;
@@ -142,8 +138,8 @@
     }
     .bg{
         background-image: url("../image/FutureSchool_bg.jpg");
-        position:absolute;
-        background-size:cover; 
+        /* position:absolute; */
+        background-size:100% 100%; 
         overflow: scroll;
         margin-left: 0px;
         margin-top: 0px;
@@ -206,8 +202,8 @@
     }
     .bg{
         background-image: url("../image/FutureSchool_bg.jpg");
-        position:absolute;
-        background-size:cover; 
+        /* position:absolute; */
+        background-size:100% 200%; 
         overflow: scroll;
         margin-left: 0px;
         margin-top: 0px;
@@ -272,9 +268,8 @@
 
 
 @media (max-width: 576px) {
-    /* … */
     .h2{
-        font-size: 15px;        
+        font-size: 17px;        
     }
     .h1{
         font-size: 33px;
@@ -290,54 +285,46 @@
         /* margin-left: 20%;
         margin-right: 20%; */
         justify-items: center;
-        max-width: 70%;
+        max-width: 80%;
         align-items: center;
     }
     .logo {
-        max-height: 300px;
+        max-height: 250px;
     }
-    #buttons{
-        display: flex;
-        margin-bottom: 10%;      
-        justify-content: center;
-        max-width: 100%;
-    }
-
     .bg{
         background-image: url("../image/FutureSchool_bg.jpg");
         position:absolute;
-        background-size:cover; 
+        background-size:100% 200%; 
         overflow: scroll;
         margin-left: 0px;
         margin-top: 0px;
         
     }
-    .logo {
-        max-height: 230px;
+    #buttons{
+        display: flex;
+        margin-bottom: 10%;      
+        justify-content: center;
     }
-    
     .button {
         border: 1px solid #1575f3;
         background-color: #1575f3;
         border-radius: 50%;
-        height: 40px;
-        width: 40px;
+        height: 48px;
+        width: 48px;
         margin: 0 30px;
         color: white;
         text-align: center;
-        font-size: 14px;
-    
+        font-size: 19px;
     }
-
     .button .button-text {
-        margin-top: 11px;
+        margin-top: 13px;
     }
-
     .email{
-        font-size: 17px;
+        font-size: 20px;
         font-family:'Courier New', Courier, monospace;
         color:aliceblue;
         text-decoration: none;
+        /* margin-top: 5%; */
     }
 }
 /* #buttons{
